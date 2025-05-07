@@ -347,7 +347,7 @@
   .fade-in {
     opacity: 0;
     transform: translateY(40px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
   }
   
   .fade-in.visible {
@@ -363,7 +363,7 @@
   .fade-item.visible {
     opacity: 1;
     transform: translateY(0);
-    animation: fadeUp 0.8s ease-out forwards;
+    animation: fadeUp 1.5s ease-out forwards;
   }
   
   @keyframes fadeUp {
