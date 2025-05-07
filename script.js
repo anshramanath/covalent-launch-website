@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     fadeSections.forEach(el => observer.observe(el))
     fadeItems.forEach((item) => {
       observer.observe(item)
-      item.style.animationDelay = `${.5}s`
+      item.style.animationDelay = `${2}s`
     })
   
     // Accordion functionality
