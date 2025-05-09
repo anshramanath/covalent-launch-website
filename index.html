@@ -7,6 +7,7 @@
   <link rel="icon" href="images/covalent.png" type="image/png" />
   <link href="https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@400,500,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 </head>
 <body>
   <!-- Navigation -->
@@ -17,10 +18,11 @@
             COVALENT
         </div>          
         <nav>
+            <a href="#proof">Proof</a>
             <a href="#services">Services</a>
-            <a href="#work">Work</a>
+            <a href="#methods">Methods</a>
             <a href="#testimonials">Testimonials</a>
-            <a href="#why">Why Choose Us</a>
+            <a href="#faqs">FAQS</a>
             <a href="#contact">Contact</a>
             <!-- <a href="https://calendly.com/YOUR-CALENDLY-LINK" class="cta" target="_blank">🚀 Book a Call</a> -->
         </nav>
@@ -37,6 +39,53 @@
     </div>
   </section>
 
+  <section id="proof" class="video-wall fade-in">
+    <div class="container">
+      <h2>Social Proof in Motion</h2>
+      <div class="video-columns">
+        <div class="video-column hide-col">
+          <div class="video-track downward">
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+          </div>
+        </div>
+
+        <div class="video-column">
+          <div class="video-track upward">
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+          </div>
+        </div>
+
+        <div class="video-column">
+          <div class="video-track downward">
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+          </div>
+        </div>
+
+        <div class="video-column hide-col">
+          <div class="video-track upward">
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+            <video src="videos/clip.mov" autoplay muted loop></video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
   <!-- Services -->
   <section id="services" class="services fade-in">
     <div class="container">
@@ -62,7 +111,7 @@
   </section>
 
   <!-- Work -->
-  <section id="work" class="work fade-in">
+  <!-- <section id="work" class="work fade-in">
     <div class="container">
       <h2>Our Work</h2>
       <p class="work-intro">Explore some of the campaigns we've built to help brands grow online and engage their communities.</p>
@@ -84,7 +133,58 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
+
+  <!-- Methods -->
+  <section id="methods" class="methods-section fade-in">
+    <div class="blob-bg"></div>
+    <div class="methods-container">
+      <h2 class="methods-title">Our Methods</h2>
+      <div class="timeline">
+        <div class="progress-line" id="progress-line"></div>
+  
+        <div class="method fade-item">
+          <div class="icon">🔍</div>
+          <div class="content">
+            <h3>Initial In-depth Research</h3>
+            <p>We dissect every facet of your customer base and market space to ensure our creatives resonate deeply and drive growth.</p>
+          </div>
+        </div>
+  
+        <div class="method fade-item">
+          <div class="icon">🧠</div>
+          <div class="content">
+            <h3>Creative Strategy</h3>
+            <p>We conceptualize visuals that are not only appealing but strategically designed to convert using psychology and data.</p>
+          </div>
+        </div>
+  
+        <div class="method fade-item">
+          <div class="icon">🎬</div>
+          <div class="content">
+            <h3>Filmmaking Methodology</h3>
+            <p>We bring concepts to life through custom-filmed, story-driven ads crafted with high production value.</p>
+          </div>
+        </div>
+  
+        <div class="method fade-item">
+          <div class="icon">✂️</div>
+          <div class="content">
+            <h3>Direct Response Editing</h3>
+            <p>Our edits are optimized for performance across platforms, tailoring each cut to the viewer’s psychology.</p>
+          </div>
+        </div>
+  
+        <div class="method fade-item">
+          <div class="icon">📊</div>
+          <div class="content">
+            <h3>Analysis & Iteration</h3>
+            <p>We analyze performance metrics to iterate on creative direction, constantly refining what works best.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>   
   
   <!-- Testimonials -->
   <section id="testimonials" class="testimonials fade-in">
@@ -138,7 +238,7 @@
   </section>  
 
   <!-- Why Us -->
-  <section id="why" class="why-choose-us fade-in">
+  <section id="faqs" class="why-choose-us fade-in">
     <div class="container">
       <h2>Why Choose Us</h2>
   

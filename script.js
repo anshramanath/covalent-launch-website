@@ -34,3 +34,20 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   })
 })
+
+window.addEventListener('scroll', () => {
+  const timeline = document.querySelector('.timeline')
+  const line = document.getElementById('progress-line')
+  const bounds = timeline.getBoundingClientRect()
+  const windowHeight = window.innerHeight
+  const middle = windowHeight / 2
+
+  if (bounds.top < middle && bounds.bottom > 0) {
+    const progress = Math.min((middle - bounds.top) / bounds.height, 1)
+    line.style.transform = `scaleY(${Math.max(progress, 0)})`
+  } else if (bounds.top >= middle) {
+    line.style.transform = 'scaleY(0)'
+  } else {
+    line.style.transform = 'scaleY(1)'
+  }
+})
