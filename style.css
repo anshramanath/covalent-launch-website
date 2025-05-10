@@ -453,7 +453,7 @@
   
   .downward {
     animation-name: scroll-down;
-    /* animation-delay: -15s; */
+    animation-delay: 0s;
   }
   
   @keyframes scroll-up {
@@ -608,6 +608,6 @@
     }
   
     .testimonial-track {
-      animation: scrollLoop 10s linear infinite;
+      animation: scrollLoop 20s linear infinite;
     }
   }
