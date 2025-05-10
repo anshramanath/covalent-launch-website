@@ -587,31 +587,6 @@
     }
   
     /* VIDEO WALL */
-    /* .video-wall {
-      padding: 60px 0 40px;
-    }
-  
-    .video-columns {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
-      justify-content: center;
-      gap: 16px;
-      overflow-x: auto;
-      padding: 0 16px;
-    }
-  
-    .video-column {
-      flex: 0 0 auto;
-      width: 45%;
-      height: auto;
-    } */
-  
-    /* .video-track {
-      animation: none;
-      gap: 16px;
-    } */
-  
     .video-track video {
       width: 100%;
       height: 270px;
@@ -635,4 +610,4 @@
     .testimonial-track {
       animation: scrollLoop 10s linear infinite;
     }
-  }  
+  }
