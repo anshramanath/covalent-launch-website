@@ -543,6 +543,19 @@
 
   /* Mobile Modifications */
   @media (max-width: 768px) {
+    body, html {
+      overflow-x: hidden !important;
+    }
+  
+    .video-columns {
+      flex-wrap: nowrap;
+      overflow-x: hidden;
+    }
+  
+    .video-column {
+      max-width: 100%;
+    }
+
     /* NAVIGATION */
     .nav {
       flex-direction: column;
@@ -569,7 +582,7 @@
     }
   
     .hero-text {
-      transform: translateY(-85px);
+      transform: translateY(-95px);
     }
   
     .hero-text h1 {
