@@ -18,6 +18,7 @@
 
   html, body {
     touch-action: pan-y;
+    overflow-x: hidden;
   }  
   
   .container {
