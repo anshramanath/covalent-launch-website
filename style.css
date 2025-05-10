@@ -569,8 +569,7 @@
     }
   
     .hero-text {
-      transform: none;
-      padding-top: 60px;
+      transform: translateY(-85px);
     }
   
     .hero-text h1 {
