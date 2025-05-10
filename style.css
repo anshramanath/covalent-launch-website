@@ -126,6 +126,24 @@
     transform: translateY(-2px);
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
   }
+
+  #contact {
+    position: relative;
+    overflow: hidden;
+  }
+
+  #contact .blob-bg {
+    position: absolute;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: -1;
+    max-width: 100%;
+    clip-path: inset(0 0 0 0); /* Ensures it stays inside bounds */
+  }  
   
   /* Hero Section */
   .hero {
