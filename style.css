@@ -453,7 +453,7 @@
   
   .downward {
     animation-name: scroll-down;
-    animation-delay: -15s;
+    /* animation-delay: -15s; */
   }
   
   @keyframes scroll-up {
