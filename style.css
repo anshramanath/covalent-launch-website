@@ -15,6 +15,10 @@
     color: #fff;
     overflow-x: hidden;
   }
+
+  html, body {
+    touch-action: pan-y;
+  }  
   
   .container {
     max-width: 1200px;
@@ -394,57 +398,11 @@
       opacity: 1;
       transform: translateY(0);
     }
-  }
-  
-  /* Responsive */
-  @media (max-width: 768px) {
-    .nav {
-      flex-direction: column;
-      align-items: center;
-      padding: 16px;
-    }
-  
-    nav {
-      display: none;
-    }
-  
-    .logo {
-      font-size: 1.6rem;
-      margin: 0 auto;
-    }
-
-    .hero-text {
-      transform: translateY(-70px);
-    }
-  
-    .hero-text h1 {
-      font-size: 2.2rem;
-    }
-  
-    .hero-text p {
-      font-size: 1rem;
-    }
-  
-    .card,
-    .post,
-    .work-item,
-    .testimonial-card {
-      width: 100%;
-      max-width: 90vw;
-    }
-
-    .testimonial-track {
-        animation: scrollLoop 15s linear infinite;
-    }
-
-    .hide-col {
-      display: none;
-    }
   }  
 
   /* Scrolling Videos */
   .video-wall {
-    padding: 150px 0 0;
+    padding: 0 0 0;
     overflow: hidden;
     background: transparent;
     text-align: center;
@@ -582,3 +540,98 @@
     font-size: 0.95rem;
     color: #ccc;
   }
+
+  /* Mobile Modifications */
+  @media (max-width: 768px) {
+    /* NAVIGATION */
+    .nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 16px;
+    }
+  
+    nav {
+      display: none;
+    }
+  
+    .logo {
+      font-size: 1.6rem;
+      margin: 0 auto;
+    }
+  
+    /* HERO SECTION */
+    .hero {
+      height: 100vh;
+      padding: 40px 20px;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .hero-text {
+      transform: none;
+      padding-top: 60px;
+    }
+  
+    .hero-text h1 {
+      font-size: 2.2rem;
+    }
+  
+    .hero-text p {
+      font-size: 1rem;
+    }
+  
+    .hero-btn {
+      margin-top: 20px;
+    }
+  
+    /* VIDEO WALL */
+    /* .video-wall {
+      padding: 60px 0 40px;
+    }
+  
+    .video-columns {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      gap: 16px;
+      overflow-x: auto;
+      padding: 0 16px;
+    }
+  
+    .video-column {
+      flex: 0 0 auto;
+      width: 45%;
+      height: auto;
+    } */
+  
+    /* .video-track {
+      animation: none;
+      gap: 16px;
+    } */
+  
+    .video-track video {
+      width: 100%;
+      height: 270px;
+      object-fit: cover;
+      border-radius: 16px;
+    }
+  
+    .hide-col {
+      display: none;
+    }
+  
+    /* CARDS & POSTS */
+    .card,
+    .post,
+    .work-item,
+    .testimonial-card {
+      width: 100%;
+      max-width: 90vw;
+    }
+  
+    .testimonial-track {
+      animation: scrollLoop 15s linear infinite;
+    }
+  }  

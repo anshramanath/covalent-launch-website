@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
   const fadeSections = document.querySelectorAll(".fade-in")
-  const fadeItems = document.querySelectorAll(".fade-item")
 
   const observer = new IntersectionObserver((entries, obs) => {
     entries.forEach(entry => {
@@ -14,10 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
   })
 
   fadeSections.forEach(el => observer.observe(el))
-  fadeItems.forEach((item) => {
-    observer.observe(item)
-    item.style.animationDelay = `${2}s`
-  })
 
   // Accordion functionality
   const accordions = document.querySelectorAll(".accordion-question")
