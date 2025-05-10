@@ -615,6 +615,6 @@
     }
   
     .testimonial-track {
-      animation: scrollLoop 15s linear infinite;
+      animation: scrollLoop 10s linear infinite;
     }
   }  
