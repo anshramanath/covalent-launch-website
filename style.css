@@ -308,7 +308,8 @@
   .testimonial-track {
     display: flex;
     gap: 24px;
-    animation: scrollLoop 30s linear infinite;
+    animation: scrollLoop 40s linear infinite;
+    width: max-content;
   }
   
   @keyframes scrollLoop {
@@ -605,10 +606,6 @@
     .testimonial-card {
       width: 100%;
       max-width: 90vw;
-    }
-  
-    .testimonial-track {
-      animation: scrollLoop 20s linear infinite;
     }
   }
 
