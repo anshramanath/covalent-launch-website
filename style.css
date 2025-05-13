@@ -611,3 +611,15 @@
       animation: scrollLoop 20s linear infinite;
     }
   }
+
+  /* Disable hover effects on touch devices to fix double-tap issue */
+  @media (hover: none) and (pointer: coarse) {
+    .cta:hover,
+    .hero-btn:hover,
+    .contact-btn:hover,
+    nav a:hover {
+      transform: none;
+      box-shadow: none;
+      text-shadow: none;
+    }
+  }
