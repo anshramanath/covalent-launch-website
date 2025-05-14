@@ -11,8 +11,8 @@
   
   body {
     font-family: 'Cabinet Grotesk', sans-serif;
-    background: #000;
-    color: #fff;
+    background: #0A0A0A;
+    color: #E5E5E5;
     overflow-x: hidden;
   }
 
@@ -63,7 +63,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 18px 100px;
-    background: #000;
+    background: #0A0A0A;
     position: sticky;
     top: 0;
     z-index: 10;
@@ -108,8 +108,8 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
-    color: #000;
+    background: #F0F0F0;
+    color: #0A0A0A;
     padding: 12px 24px;
     border-radius: 32px;
     font-weight: 500;
@@ -384,7 +384,7 @@
   
   /* Footer */
   .footer {
-    background: #000;
+    background: #0A0A0A;
     color: #666;
     text-align: center;
     padding: 40px 20px;
@@ -469,7 +469,7 @@
 
   /* Methods Section */
   .methods-section {
-    background: #000;
+    background: #0A0A0A;
     color: #fff;
     padding: 100px 0 0;
     text-align: center;
