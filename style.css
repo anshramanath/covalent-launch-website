@@ -5,6 +5,13 @@
     box-sizing: border-box;
   }
   
+  @font-face {
+    font-family: 'HEAVITAS';
+    src: url('fonts/HEAVITAS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }  
+  
   html {
     scroll-behavior: smooth;
   }
@@ -29,10 +36,12 @@
   }
   
   h1 {
+    font-family: "HEAVITAS";
     font-weight: 500;
   }
   
   h3 {
+    font-size: 1.5rem;
     margin-bottom: 10px;
   }
   
@@ -58,6 +67,7 @@
   
   /* Navigation */
   .nav {
+    font-family: "HEAVITAS";
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -197,7 +207,7 @@
   }
   
   .hero-text h1 {
-    font-size: 3rem;
+    font-size: 4.1rem;
     margin-bottom: 16px;
   }
   
@@ -253,6 +263,7 @@
   }
 
   section h2 {
+    font-family: "HEAVITAS";
     font-size: 2rem;
     margin-bottom: 40px;
   }
@@ -291,10 +302,6 @@
   .work-item:hover {
     transform: translateY(-6px);
     box-shadow: 0 8px 20px rgba(255, 255, 255, 0.05);
-  }
-  
-  .post h3 {
-    font-size: 1.1rem;
   }
   
   .post p {
@@ -413,11 +420,6 @@
     overflow: hidden;
     background: transparent;
     text-align: center;
-  }
-  
-  .video-wall h2 {
-    font-size: 2rem;
-    margin-bottom: 40px;
   }
   
   .video-columns {
