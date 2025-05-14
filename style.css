@@ -129,7 +129,7 @@
 
   #contact {
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   #contact .blob-bg {
