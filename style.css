@@ -146,9 +146,8 @@
     filter: blur(120px);
     opacity: 0.6;
     z-index: -1;
-    max-width: 100%;
-    clip-path: inset(0 0 0 0); /* Ensures it stays inside bounds */
-  }  
+    pointer-events: none;
+  }   
   
   /* Hero Section */
   .hero {
